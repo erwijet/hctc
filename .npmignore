@@ -1,0 +1,15 @@
+.DS_Store
+*.mkv
+*.mp3
+*.mp4
+*.key
+*.json
+
+src/
+stock/
+node_modules/
+
+
+!package.json
+!tsconfig.json
+!.changeset/*
