@@ -1,5 +1,11 @@
 # hctc
 
+## 1.0.5
+
+### Patch Changes
+
+- 07be47a: Add .npmingore to hopfully actually publish dist/ this time lol
+
 ## 1.0.4
 
 ### Patch Changes
