@@ -1,5 +1,11 @@
 # hctc
 
+## 1.0.6
+
+### Patch Changes
+
+- 3a9197b: fix the unix rename thing with the upper case lower case pt1
+
 ## 1.0.5
 
 ### Patch Changes
