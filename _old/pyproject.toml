@@ -10,6 +10,11 @@ python = "^3.11"
 plexapi = "^4.13.2"
 tqdm = "^4.64.1"
 moviepy = "^1.0.3"
+httplib2 = "^0.21.0"
+google-api-python-client = "^2.79.0"
+oauth2client = "^4.1.3"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^1.0.0"
 
 
 [build-system]
