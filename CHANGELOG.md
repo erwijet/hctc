@@ -1,5 +1,13 @@
 # hctc
 
+## 1.0.4
+
+### Patch Changes
+
+- 04a5a05: - Slice extraction has been added
+  - Clip resizing for 1080x1920 added
+  - Clip stacking added
+
 ## 1.0.3
 
 ### Patch Changes
