@@ -1,6 +1,8 @@
-import { $ } from "zx";
 import chalk from 'chalk';
-import fs from 'fs';
+import { $ } from "zx";
+import { join } from 'path';
+
+import { loadOrInitHctcJson } from "./hctcJsonUtils.js";
 
 const { log } = console;
 
@@ -12,9 +14,13 @@ async function assertFfmpegInPath() {
   }
 }
 
-async function main() {
+export async function main() {
   await assertFfmpegInPath();
   log(chalk.bold('hello, world!'));
+
+  const conf = loadOrInitHctcJson(join(process.cwd(), 'hctc.json'));
+
+  log({ conf });
 }
 
 main();

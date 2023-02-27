@@ -1,5 +1,6 @@
 #!/usr/bin/env node
+import { main } from './main.js';
 
-console.log('hello, world!');
+main();
 
 export {}
